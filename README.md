@@ -15,7 +15,7 @@ pip install -e .
 
 #### Download dataset and weight of LLMs
 
-- Download the processed datasets from [this baidu drive link]([https://drive.google.com/drive/folders/1pFCmEBX8cUM3OsG-qDb6H1O8Uy3Dahr_?usp=sharing](https://pan.baidu.com/s/1uALs17MOyS1A_Rk49NN2Nw)) extract code: a259
+- Download the processed datasets from [this baidu drive link](https://pan.baidu.com/s/1uALs17MOyS1A_Rk49NN2Nw) extract code: a259
 - Download the weight of LLMs (e.g., gpt-neo-2.7B)
 
 #### Run the scripts
@@ -129,3 +129,6 @@ CUDA_VISIBLE_DEVICES=0 python test_performance_decoder_new_fc.py
 	--sqrt_dimension_second 1 
 	--logging ../output/logs/Llama-2-7b-chat-hf_sqrt_concate_bf16.log
 ```
+
+#### Thanks
+This project is modified from https://github.com/zhichaoxu-shufe/context-aware-decoding-qfs.
